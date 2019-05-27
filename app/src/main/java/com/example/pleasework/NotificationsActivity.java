@@ -131,12 +131,13 @@ public class NotificationsActivity extends AppCompatActivity {
 //    Na koniec wywołaj po kolei każde powiadomienie w 2s odstępach czasu
 
     public void createGroupedNotification(View view){
+        createNotificationChannel(getString(R.string.gr_channel_name),CHANNEL_ID_GROUPED);
         //use constant ID for notification used as group summary
-        int SUMMARY_ID = 50;
-        String GROUP_KEY = "com.android.example.WORK_EMAIL";
+        int SUMMARY_ID = 50;        
         int emailNotificationId1 = 51;
         int emailNotificationId2 = 52;
-
+        String GROUP_KEY = "com.android.example.WORK_EMAIL";
+        
         Notification newMessageNotification1 =
                 new NotificationCompat.Builder(this, CHANNEL_ID_GROUPED)
                         .setSmallIcon(R.drawable.ic_mail_outline_black_24dp)
