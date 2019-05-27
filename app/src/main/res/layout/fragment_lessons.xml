@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:text="@string/title_lessons"
+            android:textSize="30sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/lesson1"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                    <ImageView
+                        android:id="@+id/lesson2"
+                        android:layout_width="150dp"
+                        android:layout_height="167dp"
+                        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/TextLesson1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lesson 1" />
+
+                    <TextView
+                        android:id="@+id/textLesson2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lesson 2" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/lesson3"
+                        android:layout_width="210dp"
+                        android:layout_height="167dp"
+                        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                    <ImageView
+                        android:id="@+id/lesson4"
+                        android:layout_width="210dp"
+                        android:layout_height="167dp"
+                        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/TextLesson3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lesson 3" />
+
+                    <TextView
+                        android:id="@+id/textLesson4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lesson 4" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/lesson5"
+                        android:layout_width="210dp"
+                        android:layout_height="167dp"
+                        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                    <ImageView
+                        android:id="@+id/lesson6"
+                        android:layout_width="210dp"
+                        android:layout_height="167dp"
+                        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/TextLesson5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lesson 5" />
+
+                    <TextView
+                        android:id="@+id/textLesson6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lesson 6" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/lesson7"
+                        android:layout_width="210dp"
+                        android:layout_height="167dp"
+                        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                    <ImageView
+                        android:id="@+id/lesson8"
+                        android:layout_width="210dp"
+                        android:layout_height="167dp"
+                        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/TextLesson7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lesson 7" />
+
+                    <TextView
+                        android:id="@+id/textLesson8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lesson 8" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/lesson9"
+                        android:layout_width="210dp"
+                        android:layout_height="167dp"
+                        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+                    <ImageView
+                        android:id="@+id/lesson10"
+                        android:layout_width="210dp"
+                        android:layout_height="167dp"
+                        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/TextLesson9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lesson 9" />
+
+                    <TextView
+                        android:id="@+id/textLesson10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lesson 10" />
+                </TableRow>
+
+            </TableLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationsActivity">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="176dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="48dp"
+        android:onClick="generateSimpleNotification"
+        android:text="Simple Notification"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="175dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:onClick="generateExpandableNotification"
+        android:text="Expandable"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        android:onClick="createGroupedNotification"
+        android:text="Group Notification"
+        app:layout_constraintStart_toStartOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="48dp"
+        android:onClick="replayNotification"
+        android:text="Replay Notification"
+        app:layout_constraintStart_toStartOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+</android.support.constraint.ConstraintLayout>

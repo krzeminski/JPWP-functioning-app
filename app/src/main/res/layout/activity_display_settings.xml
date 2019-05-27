@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DisplaySettings"
+    >
+
+    <!--<TextView-->
+    <!--android:id="@+id/nameTextView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:onClick="displayNotificationSettings"-->
+    <!--android:text="Notification"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/infoTextView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="41dp"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:onClick="displayNotificationSettings"-->
+    <!--android:text="Click here to create a notification"-->
+    <!--android:textSize="16sp" />-->
+
+    <TextView
+        android:id="@+id/nameTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:onClick="displayNotificationsActivity"
+        android:text="Notifications"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/infoTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:gravity="center_vertical"
+        android:onClick="displayNotificationsActivity"
+        android:text="Click here to manage your notifications"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/nameTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:onClick="displayLanguageActivity"
+        android:text="Language"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/infoTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:gravity="center_vertical"
+        android:onClick="displayLanguageActivity"
+        android:text="Select your language"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/nameTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:onClick="displaySoundActivity"
+        android:text="Sound"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/infoTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:gravity="center_vertical"
+        android:onClick="displaySoundActivity"
+        android:text="Click here to change sound configuration"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/nameTextView4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:onClick="displayDistractionActivity"
+        android:text="Block distraction"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/infoTextView4"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:gravity="center_vertical"
+        android:onClick="displayDistractionActivity"
+        android:text="Click here to block apps that take your attention from learning"
+        android:textSize="16sp" />
+
+</LinearLayout>

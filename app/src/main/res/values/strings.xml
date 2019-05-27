@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">pleasework</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_revision">Revision</string>
+    <string name="title_lessons">Lessons</string>
+    <string name="username">Janek</string>
+    <string name="series">78 days in a raw!</string>
+    <string name="tokens">You have 420 tokens!</string>
+    <string name="Achievements">Achievements</string>
+    <string name="Targets">Targets</string>
+    <string name="snooze">snooze</string>
+    <string name="channel_name">Simple Notification - Channel</string>
+    <string name="ex_channel_name">Expandable Notification - Channel</string>
+    <string name="gr_channel_name">Grouped Notification - Channel</string>
+    <string name="re_channel_name">Replay Notification - Channel</string>
+    <string name="channel_description">Channel description</string>
+    <string name="longmsg">REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEAALLLLLLLLLLLLLLLLLLLLLYYYYYYYYYYY LOOOOOOOOOOOOOONNNNGGG MMMMMMMMMMMMMMMEEEEEEEESSSSSSSSSSAAAAAAAGGGGGEEEEEE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
